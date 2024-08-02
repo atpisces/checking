@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Legitimate Content</title>
+    <script>
+        //function redirect() {
+        //    setTimeout(function() {
+        //        window.location.href = "https://malicious-site.com";
+        //    }, 5000); // 5 seconds delay
+        //}
+    </script>
+</head>
+<body onload="redirect()">
+    <a href="data:text/html,<html><script>alert('testing');</script></html>" target="_blank">Testing Data:text/html</a>
+    <iframe src="test2.html" style="width:100%; height:100vh; border:none;"></iframe>
+
+</body>
+</html>
+
+
+
+
+
